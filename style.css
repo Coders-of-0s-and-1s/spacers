@@ -1,0 +1,128 @@
+body{
+    background-image: url("images/peakpx.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    overflow-x: hidden;
+    background-repeat: repeat-y;
+    font-family: K2D;
+}
+#date{
+    color: aliceblue;
+    font-size:medium;
+    text-align: left;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+#nasa{
+    color: aliceblue;
+    font-size: larger;
+    text-align: center;
+}
+#title{
+    color: aliceblue;
+
+    font-size: x-large;
+}
+#about{
+    color: aliceblue;
+    border: 2px double white;
+    padding:10px;
+    font-size: larger;
+    text-align: center;
+    margin:10px;
+}
+.head{
+    background-color: rgba(255,255,255,0.3);
+    height:60%;
+    width:fit-content;
+    font-family: K2D;
+    margin: 10px auto;
+    color:aliceblue;
+    border-radius: 20px;
+    font-size: x-large;
+    display: flex;
+    padding:20px;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.head img{
+    height: 80px;
+    margin: 0 10px;
+    border-radius: 5px;
+
+}
+hr{
+    width: auto;
+    margin:20px 0;
+}
+#abt{
+    color:aliceblue; 
+    font-family: K2D;
+    font-size: larger;
+}
+#astropic{
+    width:80%;
+    max-width: 600px;
+    height: auto;
+    border:1px double white;
+}
+.foot{
+    
+    background-color: black;
+    width: 100%;
+    height:20px;
+    color: antiquewhite;
+    text-align: center;
+    padding:0 5px;
+}
+#feature{
+    text-align: center;
+    color: antiquewhite;
+}
+#cnt{
+    text-align: center;
+    color:aliceblue; 
+    padding:10px;
+    font-family: K2D;
+    width: fit-content;
+    margin: 0 auto;
+    border: 2px solid white;
+    flex-direction: column;
+}
+.wgrp{
+    color:aliceblue; 
+    font-family: K2D;
+    font-size:medium;
+}
+.contact a{
+    text-decoration: none;
+    color: white;
+}
+.contact{
+    color:aliceblue; 
+    font-family: K2D;
+    font-size:medium;
+}
+.link{
+    text-decoration: none;
+    background-color: rgba(255, 255, 255,0.7);
+}
+@media only screen and (min-width:800px){
+    body{
+        background-image: url("images/wallpaperflare.com_wallpaper\ \(3\).jpg");
+    }
+    #nasa{
+        color: aliceblue;
+        font-size: x-large;
+        text-align: center;
+    }
+    #title{
+        font-size: xx-large;
+    }
+}
+
