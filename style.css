@@ -84,6 +84,8 @@ hr{
     color: antiquewhite;
 }
 #cnt{
+    flex-wrap: wrap;
+    text-wrap: wrap;
     text-align: center;
     color:aliceblue; 
     padding:10px;
