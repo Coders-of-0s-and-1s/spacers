@@ -1,8 +1,10 @@
 body{
     background-image: url("images/peakpx.jpg");
-    background-repeat: no-repeat;
+   background-repeat: no-repeat;
 background-attachment: fixed;
     background-size: 100%;
+background-position:sticky;
+top:0;
     overflow-x: hidden;
     background-repeat: repeat-y;
     font-family: K2D;
