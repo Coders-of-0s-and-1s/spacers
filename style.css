@@ -4,7 +4,7 @@ body{
   background-position: center;
     background-size: 100%;
     overflow-x: hidden;
-    background-repeat: repeat-y;
+    background-repeat: no-repeat;
     font-family: K2D;
 }
 #date{
