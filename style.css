@@ -119,8 +119,7 @@ hr{
     body{
         background-image: url("images/wallpaperflare.com_wallpaper (3).jpg");
 background-attachment: fixed;
-background-position:static;
-    background-size: cover;
+    background-size: contain;
     overflow-x: hidden;
     background-repeat: repeat-y;
     font-family: K2D;
