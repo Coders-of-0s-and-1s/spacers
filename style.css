@@ -117,10 +117,10 @@ hr{
 }
 @media only screen and (min-width:800px){
     body{
-        background-image: url("images/wallpaperflare.com_wallpaper (3).jpg");
-   background-repeat: no-repeat;
+        background-image: url("images/wallpaperflare.com_wallpaper (3).jpg");
 background-attachment: fixed;
-    background-size: cover;
+background-position:static;
+    background-size: 100%;
     overflow-x: hidden;
     background-repeat: repeat-y;
     font-family: K2D;
